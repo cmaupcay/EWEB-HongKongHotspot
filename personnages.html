@@ -1,0 +1,138 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Hotspot - Personnages clés</title>
+
+    <meta name="author" content="Sara ZAIBET, Alexis LÉON, Rodrigue DEMARS BARBINI, Clément MAUPERON">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="img/hkh.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="haut" class="flat-nav">
+            <div id="logo" onclick="window.location.href = 'index.html'">
+                <img src="img/hkh.jpg" alt="Honk Kong Hotspot">
+            </div>
+
+            <div id="titre">
+                <div>
+                    <h1>Hong Kong Hotspot</h1>
+                    <h2>香港热点</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="bas" class="flat-nav">
+            <ul id="nav">
+                <li class="bouton" onclick="window.location.href = 'raisons.html'">
+                    Raisons des manifestations
+                </li>
+                <li class="bouton" onclick="window.location.href = 'deroulement.html'">
+                    Déroulement des évenements
+                </li>
+                <li class="bouton" onclick="window.location.href = 'consequences.html'">
+                    Conséquences
+                </li>
+                <li class="bouton active" onclick="window.location.href = 'personnages.html'">
+                    Personnages clés
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <section id="contenu">
+        <article class="grand-titre">
+            <h1>Qui sont les principaux acteurs de ces évenements ?</h1>
+            <h2>谁是这个故事的主角？</h2>
+        </article>
+
+        <!-- PORTRAITS -->
+        <article id="portraits">
+            <div id="carrie-lam" onclick="montrer('bio-carrie-lam')">
+                <img src="img/portraits/carrie-lam.jpg" alt="Carrie Lam">
+            </div>
+            <div id="roy-kwong" onclick="montrer('bio-roy-kwong')">
+                <img src="img/portraits/roy-kwong.png" alt="Roy Kwong">
+            </div>
+            <div id="joshua-wong" onclick="montrer('bio-joshua-wong')">
+                <img src="img/portraits/joshua-wong.jpg" alt="Joshua Wong">
+            </div>
+            <div id="jimmy-lai" onclick="montrer('bio-jimmy-lai')">
+                <img src="img/portraits/jimmy-lai.jpg" alt="Jimmy Lai">
+            </div>
+        </article>
+
+        <!-- BIOS -->
+        <article class="bio" id="bio-carrie-lam">
+            <h1>Carrie Lam</h1>
+            <h2>林鄭月娥</h2>
+
+            <p>
+                En fonction depuis le 1er juillet 2017, Carrie Lam est la <b>cheffe de l'éxécutif de Hong Kong</b>. Au printemps 2019, elle publie un projet de <b>loi autorisant l'extradition vers la Chine</b> des opposants au régime de Xi Jinping. Elle est accusée par le peuple de vouloir résoudre des problèmes politiques à travers <b>la loi et l'ordre</b>, en utilisant notament massivent la police. Le 4 septembre 2020, suite aux manifestations massives, elle finit par <b>retirer le projet de loi</b> soutenu par son exécutif. Face à un gourvenement chinois oppresseur, Carrie Lam révèle dans un enregistrement audio destiné à être secret qu'<b>elle aurait démissioné si elle avait pu</b>.
+            </p>
+        </article>
+
+        <article class="bio" id="bio-roy-kwong">
+            <h1>Roy Kwong</h1>
+            <h2>鄺俊宇</h2>
+
+            <p>
+                Homme politique et romancier, Roy Kwong est un <b>membre du parti démocratique et député au parlement</b> hongkongais. Il a été particulèrement présent auprès des manifestants lors des mobilisations contre la loi sur l'extradition. On le voyait souvent <b>appeler les forces de l'ordre à rester calme</b> et de ne pas user de leur violence. En septembre 2019, il a violemment été agressé près de son domicile, lui causant des blessures aux vertèbres cervicales. Le parti démocrate allègue qu'il s'agissait d'une attaque organisée visant à intimider les partisans du mouvement. Grâce à son influence et sa mobilisation auprès des étudiants, le projet de loi a été abandonné.
+            </p>
+        </article>
+
+        <article class="bio" id="bio-joshua-wong">
+            <h1>Joshua Wong</h1>
+            <h2>黃之鋒</h2>
+
+            <p>
+                Agé de 24 ans, Joshua Wong est un <b>étudiant et militant pro-démocratie</b> hongkongais. Très engagé lors de la Révolution des Parapluies de 2014, il milite essentiellement <b>pour le suffrage universel démocratique</b>. Il est <b>condamné</b> en août 2017 pour son rôle dans le mouvement, puis libéré en juin 2019 suite aux manifestations contre la loi sur l'extradition. Il témoigne dès lors de l'incompétence de la cheffe de l'exécutif et <b>demande la démission de Carrie Lam</b> pour la survie de la démocratie hongkongaise. Il est finalement <b>arrêté une deuxième fois en septembre 2020</b> pour rassemblement illégal lors d'une manifestation en octobre 2019, et sera condamné à <b>13 mois d'emprisonnement</b>.
+            </p>
+        </article>
+
+        <article class="bio" id="bio-jimmy-lai">
+            <h1>Jimmy Lai</h1>
+            <h2>黎智英</h2>
+
+            <p>
+                Jimmy Lai est un <b>homme d'affaire hongkongais</b> et le fondateur du quotidien <a href="https://hk.appledaily.com/">Apple Daily</a> et de la chaine de magasin Giordano. Du fait de son orientation libérale sur le plan économique et politique, il est <b>interdit de se rendre en Chine continentale</b> car son journal est considéré comme un <b>média d'opposition</b>.. Comme Roy Kwong, il est fortement engagé dans la lutte pour la conservation de la liberté d'expression à Hong Kong, notamment en tant qu'homme de presse. Il est ainsi le <b>principal contributeur financier au parti démocratique</b> hongkongais et est considéré comme un ennemi politique par le gouvernement chinois. Après qu'il ait décrit le parti communiste, dans un article d'Apple Daily, comme un "monopole qui facture une prime pour un service médiocre", la Chine riposte en <b>fermant ses magasins sur tout le territoire</b>. Redoutant les représailles du gouvernement, <b>les annonceurs refusent alors de placer des publicités</b> dans son journal. Il sera finalement <b>arrêté le 10 août 2020</b> pour « collusion avec des forces étrangères » selon l’article 29 de la Loi sur l’extradition.
+            </p>
+        </article>
+
+
+    </section>
+
+    <footer class="flat-nav">
+        <span id="auteur">Sara ZAIBET</span>
+        <span id="auteur">Alexis LÉON</span>
+        <span id="milieu">2021</span>
+        <span id="auteur">Rodrigue DEMARS BARBINI</span>
+        <span id="auteur">Clément MAUPERON</span>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+        // Affichage des détails des personnages
+        function montrer(bio_id){
+            var bio = document.getElementById(bio_id);
+            if (bio.classList.contains("ouvert")){
+                bio.classList.remove("ouvert");
+            } else {
+                var bioOuvertes = document.getElementsByClassName("ouvert");
+                for (let index = 0; index < bioOuvertes.length; index++) {
+                    bioOuvertes[index].classList.remove("ouvert");
+                }
+                bio.classList.add("ouvert");
+            }
+            window.location.href = "#" + bio_id;
+        }
+    </script>
+
+</body>
+</html>
