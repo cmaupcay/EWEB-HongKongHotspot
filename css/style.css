@@ -8,9 +8,7 @@
 }
 @media (max-width: 1200px)
 {
-    html {
-        font-size: 0.8rem;
-    }
+    html { font-size: 0.8rem; }
 }
 html, body { height: 100%; }
 body {
@@ -101,6 +99,11 @@ header div#haut div#titre h1 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
 }
+@media (max-width: 738px) 
+{
+    header div#haut div#titre h1 { font-size: 2rem!important; }
+}
+
 header div#haut div#titre h2 {
     font-size: 1.5rem;
     letter-spacing: 1rem;
@@ -128,10 +131,14 @@ section#contenu {
     color: #1d1d1d;
     text-align: center;
 }
+@media (max-width: 738px)
+{
+    section#contenu { margin-top: 15rem; }
+}
 /* Article */
 section#contenu article {
-    margin: 0.5rem 2rem;
     padding: 1rem 0 1rem 0;
+    margin: 0.5rem 2rem;
     animation-duration: 0.8s;
     animation-name: anim-glissement-haut-article, anim-doux;
 }
@@ -146,6 +153,14 @@ section#contenu article h1 {
     font-size: 2.3rem;
     font-weight: 900;
     letter-spacing: 0.5rem;
+}
+@media (max-width: 738px)
+{
+    section#contenu article h1 
+    { 
+        font-size: 1.5rem!important;
+        letter-spacing: 0.2rem;
+    }
 }
 section#contenu article h2 {
     font-size: 1.3rem;
@@ -168,8 +183,15 @@ section#contenu article.grand-titre h2 {
     margin-top: 0;
 }
 /* Texte */
+@media (max-width: 738px)
+{
+    section#contenu article p { margin: 0!important; }
+
+}
 section#contenu article p {
     line-height: 1.8rem;
+    margin: 0 5rem;
+    text-align: justify;
 }
 /* Images */
 section#contenu article figure {
