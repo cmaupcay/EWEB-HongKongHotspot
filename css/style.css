@@ -1,4 +1,4 @@
-@import url("../css/animations.css");
+@import url("animations.min.css");
 
 * {
     margin: 0;
@@ -271,6 +271,7 @@ body#accueil {
     background-position: center;
 }
 body#accueil section#contenu p, body#accueil section#contenu h1, body#accueil section#contenu h2 {
+    text-align: center;
     color: #ffffff;
 }
 body#accueil header div#bas, body#accueil footer {
