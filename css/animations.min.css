@@ -1,0 +1,1 @@
+@keyframes anim-doux{from{opacity:0}to{opacity:100%}}@keyframes anim-pop{from{transform:scale(0.75)}to{transform:scale(1)}}@keyframes anim-glissement-haut{from{margin-top:4rem}to{margin-top:initial}}@keyframes anim-glissement-haut-article{from{margin-top:4rem}to{margin-top:0.5rem}}@keyframes anim-glissement-gauche{from{margin-left:4rem}to{margin-left:inherit}}
